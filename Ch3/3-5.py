@@ -9,7 +9,7 @@ Print a second set of invitation messages, one for each person who is still in y
 guests_list = [
     'Seneca',
     'Marcus Aurelius',
-    'Xeno',
+    'Zeno',
     'Emerson',
     'David Goggins'
     ]
