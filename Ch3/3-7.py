@@ -43,7 +43,11 @@ while len(guests_list) > 2:
 
 print(f"\nCancled Guests:", cancled_guests, '\n')
 
-for guest in guests_list:
-    print(f"See you at the party tomorrow dear {guest}!")
+print("\nGuests' list:", guests_list, '\n')
 
-print()
+while len(guests_list):
+    guest = guests_list[-1]
+    print(f"See you at the party tomorrow dear {guest}!")
+    guests_list.pop()
+
+print('Guests\' list after the party:', guests_list)
